@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import "reset.scss";
 
-header {
+#header {
     background: #f4f3ef;
     h1 {
         padding: 4vh; 
@@ -58,5 +58,5 @@ header {
             }
         }
     }
-
 }
+
