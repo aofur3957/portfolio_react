@@ -24,6 +24,8 @@ button {
 }
 
 #header {
+  position: relative;
+  height: 18vh;
   background: #f4f3ef;
 }
 #header h1 {
@@ -31,6 +33,10 @@ button {
   text-align: center;
 }
 #header nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   border-top: 1px solid #ccc;
   border-bottom: 4px solid #333;
 }
@@ -81,6 +87,10 @@ button {
   height: 35px;
   font-size: 17px;
   color: #fff;
+}
+
+#visual {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
