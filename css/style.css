@@ -23,11 +23,10 @@ button {
 }
 
 header {
-  height: 15vh;
   background: #f4f3ef;
 }
 header h1 {
-  padding: 5vh;
+  padding: 4vh;
   text-align: center;
 }
 header nav {
@@ -38,7 +37,6 @@ header nav .inner {
   width: 1180px;
   margin: 0 auto;
   position: relative;
-  background: #fff;
 }
 header nav .inner #gnb::after {
   content: "";
