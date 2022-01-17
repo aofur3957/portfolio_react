@@ -69,9 +69,24 @@
     width: 100%; height: calc(100vh - 18vh);
     background: #333;
     .inner {
+        display: flex;
         width: 1180px;
         height: 100%;
         margin: 0 auto;
+        padding: 15vh 0;
         background: #fff;
+        .txt {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            h1 {
+                font: 50px/1 'arial';
+            }
+        }
+        .slide {
+            width: 900px;
+            height: 500px;
+            background:#333;
+        }
     }
 }
