@@ -114,6 +114,15 @@ button {
 }
 #visual .inner .txt p {
   font: 17px/1.4 "arial";
+  margin-bottom: 40px;
+}
+#visual .inner .txt a {
+  display: block;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+  background: #fff;
+  font: 13px/40px "arial";
 }
 #visual .inner .slide {
   width: 700px;
