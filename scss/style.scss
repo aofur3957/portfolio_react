@@ -23,10 +23,26 @@ header {
                 li { 
                     float: left; 
                     width: 20%;
+                    position: relative;
+                    &:first-of-type::before {
+                        display: none;
+                    }
+                    &::before {
+                        content: '';
+                        display: block;
+                        width: 1px;
+                        height: 20px;
+                        position: absolute;
+                        top: 50%; left: 0;
+                        margin-top: -10px;
+                        background: #ccc;
+                    }
                     a {
                         display: block;
                         text-align: center;
-                        padding: 5px 0;
+                        padding: 16px 0;
+                        font: 18px/1 'arial';
+                        color: #333;
                     }
                 }
             }
