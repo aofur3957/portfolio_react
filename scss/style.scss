@@ -48,7 +48,13 @@ header {
             }
             .search {
                 position: absolute;
-                top: 0; right: 0;
+                top: -75px; right: 0;
+                .btn {
+                    background: #5a716b;
+                    width: 35px; height: 35px;
+                    font-size: 17px;
+                    color: #fff;
+                }
             }
         }
     }

@@ -14,6 +14,7 @@ a {
 button {
   border: none;
   background: none;
+  cursor: pointer;
 }
 
 .hidden {
@@ -71,8 +72,15 @@ header nav .inner #gnb li a {
 }
 header nav .inner .search {
   position: absolute;
-  top: 0;
+  top: -75px;
   right: 0;
+}
+header nav .inner .search .btn {
+  background: #5a716b;
+  width: 35px;
+  height: 35px;
+  font-size: 17px;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
