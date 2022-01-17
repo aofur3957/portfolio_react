@@ -66,5 +66,12 @@
 }
 
 #visual {
-    width: 100%;
+    width: 100%; height: calc(100vh - 18vh);
+    background: #333;
+    .inner {
+        width: 1180px;
+        height: 100%;
+        margin: 0 auto;
+        background: #fff;
+    }
 }

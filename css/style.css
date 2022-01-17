@@ -91,6 +91,14 @@ button {
 
 #visual {
   width: 100%;
+  height: 82vh;
+  background: #333;
+}
+#visual .inner {
+  width: 1180px;
+  height: 100%;
+  margin: 0 auto;
+  background: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
