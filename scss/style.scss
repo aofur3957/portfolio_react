@@ -67,24 +67,28 @@
 
 #visual {
     width: 100%; height: calc(100vh - 18vh);
-    background: #333;
+    background: #f4f3ef;
     .inner {
         display: flex;
+        justify-content: space-between;
         width: 1180px;
         height: 100%;
         margin: 0 auto;
         padding: 15vh 0;
-        background: #fff;
+        background: #f4f3ef;
         .txt {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
+            padding-top: 50px;
+            width: 400px;
             h1 {
                 font: 50px/1 'arial';
+                margin-bottom: 50px;
+            }
+            p {
+                font: 17px/1.4 'arial';
             }
         }
         .slide {
-            width: 900px;
+            width: 700px;
             height: 500px;
             background:#333;
         }
