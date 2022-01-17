@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.hidden {
+  position: absolute;
+  top: -9999px;
+  opacity: 0;
+}
+
+header {
+  height: 15vh;
+  background: #f4f3ef;
+}
+header h1 {
+  padding: 5vh;
+  text-align: center;
+}
+header nav {
+  border-top: 1px solid #ccc;
+  border-bottom: 4px solid #333;
+}
+header nav .inner {
+  width: 1180px;
+  margin: 0 auto;
+  position: relative;
+  background: #fff;
+}
+header nav .inner #gnb::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header nav .inner #gnb li {
+  float: left;
+  width: 20%;
+}
+header nav .inner #gnb li a {
+  display: block;
+  text-align: center;
+  padding: 5px 0;
+}
+header nav .inner .search {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

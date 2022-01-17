@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import "reset.scss";
+
+header {
+    height: 15vh;
+    background: #f4f3ef;
+    h1 {
+        padding: 5vh; 
+        text-align: center; 
+    }
+    nav {
+        border-top: 1px solid #ccc;
+        border-bottom: 4px solid #333;
+        .inner {
+            width: 1180px;
+            margin: 0 auto;
+            position: relative;
+            background: #fff;
+            #gnb {
+                &::after { content: ''; display: block; clear: both;}
+                li { 
+                    float: left; 
+                    width: 20%;
+                    a {
+                        display: block;
+                        text-align: center;
+                        padding: 5px 0;
+                    }
+                }
+            }
+            .search {
+                position: absolute;
+                top: 0; right: 0;
+            }
+        }
+    }
+
+}
